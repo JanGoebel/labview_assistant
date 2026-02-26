@@ -80,6 +80,8 @@
 				<Item Name="Get VI Blockdiagram (Reply Payload)--cluster.ctl" Type="VI" URL="../Get VI Blockdiagram (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get VI Frontpanel Picture Argument--cluster.ctl" Type="VI" URL="../Get VI Frontpanel Picture Argument--cluster.ctl"/>
 				<Item Name="Get VI Frontpanel Picture (Reply Payload)--cluster.ctl" Type="VI" URL="../Get VI Frontpanel Picture (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get Library Argument--cluster.ctl" Type="VI" URL="../Get Library Argument--cluster.ctl"/>
+				<Item Name="Get Library (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Library (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -117,7 +119,9 @@
 				<Item Name="open_vi.vi" Type="VI" URL="../open_vi.vi"/>
 				<Item Name="get-available-objects.vi" Type="VI" URL="../get-available-objects.vi"/>
 				<Item Name="Get open VIs.vi" Type="VI" URL="../Get open VIs.vi"/>
-				<Item Name="Get VI Blockdiagram.vi" Type="VI" URL="../Get VI Blockdiagram.vi"/>
+				<Item Name="Get VI Frontpanel Picture.vi" Type="VI" URL="../Get VI Frontpanel Picture.vi"/>
+				<Item Name="get_vi_blockdiagram.vi" Type="VI" URL="../get_vi_blockdiagram.vi"/>
+				<Item Name="get_library.vi" Type="VI" URL="../get_library.vi"/>
 			</Item>
 			<Item Name="Show Panel.vi" Type="VI" URL="../Show Panel.vi"/>
 			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
@@ -127,7 +131,6 @@
 			<Item Name="Read Config Data.vi" Type="VI" URL="../Read Config Data.vi"/>
 			<Item Name="Set Allowed Paths.vi" Type="VI" URL="../Set Allowed Paths.vi"/>
 			<Item Name="New MCP RPC Message.vi" Type="VI" URL="../New MCP RPC Message.vi"/>
-			<Item Name="Get VI Frontpanel Picture.vi" Type="VI" URL="../Get VI Frontpanel Picture.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -197,6 +200,7 @@
 		<Item Name="Do Delete Object.vi" Type="VI" URL="../Do Delete Object.vi"/>
 		<Item Name="Do Enclose Selection.vi" Type="VI" URL="../Do Enclose Selection.vi"/>
 		<Item Name="Do Get Cond Terminal.vi" Type="VI" URL="../Do Get Cond Terminal.vi"/>
+		<Item Name="Do Get Library.vi" Type="VI" URL="../Do Get Library.vi"/>
 		<Item Name="do get loop iteration terminal.vi" Type="VI" URL="../do get loop iteration terminal.vi"/>
 		<Item Name="Do Get Object Help.vi" Type="VI" URL="../Do Get Object Help.vi"/>
 		<Item Name="Do Get Open VIs.vi" Type="VI" URL="../Do Get Open VIs.vi"/>
